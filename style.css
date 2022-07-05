@@ -24,6 +24,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    overflow: hidden;
 }
 
 .head-sec h1 {
@@ -47,4 +48,154 @@ body {
     margin-top: 20px;
     border-radius: 10px;
     font-size: 25px;
+}
+
+#donation-sec {
+    width: 40%;
+    height: 580px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.donate-cat {
+    width: 15%;
+    height: 50px;
+    background-color: rgb(225, 237, 237);
+    float: left;
+    border-radius: 2px;
+    margin: 3px;
+    margin-left: 25px;
+}
+
+.donate-cat {
+    text-align: center;
+}
+
+.border-item {
+    border: 1px solid red;
+}
+
+.donet-text h1 {
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.donet-text p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.sub-ops input {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sub-ops button {
+    background-color: aquamarine;
+    color: blue;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.plan-text-sec {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.plan-text-sec h1 {
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.plan-main-div {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.half-wieth {
+    box-shadow: 5px 5px 8px 5px #e7e5e5;
+    border: 1 px solid mediumaquamarine;
+    border-radius: 5px;
+    height: 300px;
+    width: 30%;
+    margin: 10px 15px 10px 10px;
+    padding: 5px;
+    background-color: #ff99cc60;
+}
+
+.half-wieth img {
+    max-width: 70px;
+}
+
+.plan-1 {
+    background-color: rgba(49, 93, 93, 0.203);
+}
+
+.plan-2 {
+    background-color: #1507d92a;
+}
+
+#fot-sec {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 2, 2);
+    text-align: center;
+}
+
+.brnd-name {
+    color: rgb(141, 241, 18);
+}
+
+.fot-text {
+    color: rgb(233, 178, 10);
+}
+
+#fot-sec p {
+    color: aliceblue;
+}
+
+#top-section {
+    height: 150px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    display: flex;
+}
+
+.fai-main-div {
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 5px #d8d1d1;
+    display: flex;
+}
+
+.fai-main-div input {
+    border: none;
+    width: 70%;
+    color: rgba(223, 210, 210, 0.432);
+    background-color: rgba(243, 235, 235, 0.468);
+    padding: 20px;
+}
+
+.fai-main-div button {
+    font-size: 30px;
+    width: 30%;
+    border-radius: 15px;
+}
+
+.gt-text {
+    margin: 20px;
+    padding: 10px;
+    font-size: 35px;
 }
