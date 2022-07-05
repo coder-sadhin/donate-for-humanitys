@@ -1,4 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Kanit', sans-serif;
     background-color: aliceblue;
+}
+
+#header-section {
+    background-image: url(images/donation-bg.jpg);
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+}
+
+.head-sec {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    /* collected form https://www.freecodecamp.org */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.head-sec h1 {
+    font-size: 60px;
+    color: #1507d9;
+}
+
+.head-sec p {
+    font-size: 20px;
+    color: rgb(43, 226, 52);
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+
+.head-sec button {
+    background-color: aquamarine;
+    color: blue;
+    padding: 20px;
+    margin-left: 45%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 25px;
 }
